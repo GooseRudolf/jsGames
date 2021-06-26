@@ -1,0 +1,166 @@
+@media (max-width: 1200px) {
+  .section-inner {
+    width: 1000px; }
+  .section-founder-content-text {
+    font-size: 20px; }
+  .section-founder-content-name {
+    font-size: 20px; } }
+
+@media (max-width: 1020px) {
+  .section-inner {
+    width: 900px;
+    margin: 0px auto; }
+  .section-header {
+    margin-bottom: 60px; }
+    .section-header-wrapper_form {
+      display: block;
+      width: 60%;
+      margin: 0px auto; }
+      .section-header-wrapper_form_input {
+        margin-bottom: 20px; }
+    .section-header-wrapper_title {
+      font-size: 45px; }
+    .section-header-wrapper_subtitle {
+      font-size: 16px;
+      margin-bottom: 25px; }
+    .section-header-wrapper_form_button {
+      margin-bottom: 5px; }
+  .section-promo-1_content .titel {
+    font-size: 28px;
+    margin-bottom: 25px; }
+  .description-item-titel {
+    margin-top: 20px; } }
+
+@media (max-width: 900px) {
+  .section-inner {
+    width: 790px;
+    margin: 0px auto; }
+  .section-founder-content-text {
+    font-size: 16px;
+    line-height: 27px; }
+  .section-founder-content-name {
+    font-size: 16px; }
+  .section-founder-content-pos {
+    font-size: 16px; }
+  .section-free-titel {
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 20px; }
+  .section-free-description {
+    font-size: 17px;
+    line-height: 25px;
+    margin: 0px auto 30px; } }
+
+@media (max-width: 800px) {
+  .section-inner {
+    width: 100%;
+    padding: 0px 10px; }
+  .section-promo {
+    padding: 0px 40px; }
+    .section-promo-1 {
+      display: block; }
+      .section-promo-1_content {
+        padding: 40px 0px; }
+      .section-promo-1_video {
+        display: none; }
+    .section-promo-2 .description-item {
+      display: block;
+      padding-top: 70px;
+      margin-top: 80px; }
+      .section-promo-2 .description-item-item {
+        width: 60%;
+        margin: 20px auto;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  .section-founder .flex-items {
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    text-align: center; }
+  .section-founder-img {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 40%; }
+    .section-founder-img img {
+      width: 100px; }
+    .section-founder-img .content_mobile {
+      display: block;
+      align-self: flex-end; }
+  .section-founder-content {
+    padding: 10px 0px 30px 0px; }
+    .section-founder-content-name, .section-founder-content-pos {
+      display: none; }
+  .section-footer-logo {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000000;
+    margin: 10px auto;
+    width: 30%; }
+  .section-footer-nav {
+    display: block;
+    text-align: center; }
+    .section-footer-nav li {
+      margin-bottom: 20px; }
+      .section-footer-nav li + li {
+        margin-left: 0px; }
+  .section-footer-copyright_and_links {
+    display: block; }
+    .section-footer-copyright_and_links-copyright {
+      text-align: center;
+      margin-bottom: 10px; }
+    .section-footer-copyright_and_links-links .helper-links {
+      display: block;
+      text-align: center; }
+      .section-footer-copyright_and_links-links .helper-links li {
+        margin-bottom: 10px; }
+        .section-footer-copyright_and_links-links .helper-links li + li {
+          margin-left: 0px; } }
+
+@media (max-width: 600px) {
+  .section-header-logo {
+    padding-bottom: 70px; }
+  .section-header-wrapper_title {
+    font-size: 35px; }
+  .section-header-wrapper_subtitle {
+    font-size: 14px;
+    margin-bottom: 15px; }
+  .section-promo {
+    padding: 0px 10px; }
+    .section-promo .description-item-item {
+      width: 70%; }
+  .section-plans {
+    padding-top: 60px; }
+    .section-plans-titel {
+      font-size: 26px;
+      line-height: 35px; }
+    .section-plans-subtitel {
+      font-size: 14px;
+      line-height: 20px;
+      width: 70%;
+      margin: 0 auto 20px; }
+    .section-plans-list {
+      display: none; }
+    .section-plans .image-slider {
+      display: block; }
+  .section-free-titel {
+    font-size: 34px;
+    line-height: 40px; }
+  .section-free-description {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0px auto 20px; } }
+
+@media (max-width: 320px) {
+  .section-header .section-inner {
+    padding-bottom: 50px; }
+  .section-header-logo {
+    padding-bottom: 30px; }
+  .section-header-wrapper_form {
+    width: 85%; }
+    .section-header-wrapper_form_input {
+      padding-right: 0px; }
+  .section-promo {
+    text-align: center; }
+    .section-promo .description-item-item {
+      width: 100%; } }
