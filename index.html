@@ -11,8 +11,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/style.min.css?_v=20230802150105">
-    <script src="js/app.min.js?_v=20230802150105" defer></script>
+    <link rel="stylesheet" href="css/style.min.css?_v=20230802224657">
+    <script src="js/app.min.js?_v=20230802224657" defer></script>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
     <div class="tab-container gametab">
         <div class="tab-container__items">
             <button class="tab-container__items-tablinks active" name="Tab1">2048</button>
-            <button class="tab-container__items-tablinks" name="Tab2">Snake</button>
+            <button class="tab-container__items-tablinks" name="Tab2">Змейка</button>
             <div class="underline"></div>
         </div>
 
@@ -49,11 +49,23 @@
         </div>
     </div>
 
-    <div class="popup">
-            <div class="popup__body">
+
+    <div class="help open-popup" id="helpButton">
+        Подсказка
+    </div>
+
+    <div class="popup" name="helpButton">
+        <div class="popup__body">
+            <div class="popup__body-closeButton popup__body-closeButton_second" name="helpButton">X</div>
+            <div class="popup__body-contentHelp"></div>
+        </div>
+    </div>
+
+    <div class="popup looseScreen" name="btnLoose">
+            <div class="popup__body looseScreenBody">
                 <div class="popup__body-content">
                     Loose
-                    <div class="popup__body-closeButton">Restart</div>
+                    <div class="popup__body-closeButton btnLoose" name="btnLoose">Restart</div>
                 </div>
             </div>
     </div>
